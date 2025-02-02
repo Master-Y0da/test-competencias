@@ -7,13 +7,14 @@
  # Usando UV
 
  - uv se puede instalar desde el siguiente enlace https://docs.astral.sh/uv/getting-started/installation/
- - una vez instalado, ejecutar dependencias del proyecto con ```uv init```. Esto genera entornos automaticos e instala lo que contenga uv.lock.
+ - una vez instalado, ejecutar dependencias del proyecto con ```uv venv``` y ```uv sync```. Esto genera entornos automaticos e instala lo que contenga uv.lock.
 
  # Ejecutando Django
 
 - Crear migraciones ```uv run python manage.py makemigrations```
 - Ejecutar migraciones ```uv run python manage.py migrate```
 - Terminado lo anterior, ejecutar ```uv run python manage.py runserver``` para levantar la app django.
+- Ir a http://127.0.0.1:8000/api/v1/ donde se puede ver los endpoins disponibles y probarlos.
 
 # Bot de Telegram
 
