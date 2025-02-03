@@ -1,5 +1,5 @@
 
-# Api para probar competencias tecnicas ?
+# Api backend
 
  Este proyecto presenta una api desarrollada en django rest framework. Utiliza uv como herramienta de gestión de dependencias y entornos virtuales. Se incluye una bd sqlite que ha sido utilizada para probar la funcionalidad y cuenta con unos pocos datos de prueba.
 
